@@ -17,7 +17,7 @@ function hitungAkar() {
     var request = new XMLHttpRequest();
 
     // Mengatur tipe permintaan dan URL endpoint API
-    request.open("POST", "/hitung-akar-api.php", true);
+    request.open("POST", "./hitung-akar-api.php", true);
     request.setRequestHeader("Content-type", "application/json");
 
     // Mengirimkan data nilai dan nim ke API

@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Lakukan penyimpanan ke database sesuai dengan kebutuhan Anda
     // Misalnya, menggunakan PDO untuk mengakses database MySQL
     try {
-        $pdo = new PDO("mysql:host=localhost;dbname=hiko3370_akar_kuadrat", "hiko3370_root", "Blackcnz1@");
+        $pdo = new PDO("mysql:host=localhost;dbname=akar-kuadrat-new", "root", "");
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         // Panggil stored procedure untuk menghitung akar kuadrat
